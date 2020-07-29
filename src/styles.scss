@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@keyframes bgcolor {
+    50% {
+        background-color: #a7a6a4;
+    }
+
+    100% {
+        background-color: #ed9e97;
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 10s infinite;
+    animation: bgcolor 5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
