@@ -4,14 +4,14 @@
 
       <div class="columns is-centered is-mobile">
         <div class="column is-12-mobile is-7-desktop">
-          <div class="box box-gray">
+          <div class="box black-box golden-glow">
 
             <div class="container header-container">
               <div class="columns is-centered is-vcentered is-mobile">
                 <div class="column is-narrow">
                   <div class="image is-110x110">
                     <img class="is-rounded"
-                      src="https://instagram.fpoa8-2.fna.fbcdn.net/v/t51.2885-19/s150x150/106271221_295968838203988_5008440178383260319_n.jpg?_nc_ht=instagram.fpoa8-2.fna.fbcdn.net&amp;_nc_ohc=ig6StASqggQAX_n4RJD&amp;oh=30e8865c5ef48aa7032bfe166f5c4c45&amp;oe=5F493238">
+                      src="https://i.imgur.com/fErDkeg.png">
                   </div>
                 </div>
               </div>
@@ -19,23 +19,31 @@
               <div class="columns is-centered is-vcentered is-mobile">
                 <div class="column is-narrow">
                   <h1 class="title">
-                    Santamora Store
+                    Aline Centini
                   </h1>
+                </div>
+              </div>
+
+              <div class="columns is-centered is-vcentered is-mobile" style="margin-top: -5vh;">
+                <div class="column is-narrow">
+                  <h3>
+                    Designer de Interiores
+                  </h3>
                 </div>
               </div>
 
               <div class="columns is-centered is-vcentered is-mobile mt-4">
                 <div class="column is-narrow">
-                  <button class="button is-outlined is-rounded">
+                  <button (click)="this.goTo(applicationEnum.Localization)" class="button main-button-rounded">
                     <span class="icon">
                       <i class="fas fa-map-marker-alt"></i>
                     </span>
-                    <span>Porto Alegre, Santo Antônio</span>
+                    <span>São Paulo, São Dimas</span>
                   </button>
                 </div>
               </div>
 
-              <div class="columns is-centered is-vcentered is-mobile mt-2">
+              <!-- <div class="columns is-centered is-vcentered is-mobile mt-2">
                 <div class="column is-5-tablet is-5-desktop is-3-mobile"></div>
                 <div class="column">
                   <h2 class="subtitle">
@@ -45,9 +53,9 @@
                     <span class="ml-2">Loja das Guriax</span>
                   </h2>
                 </div>
-              </div>
+              </div> -->
 
-              <div class="columns is-centered is-vcentered is-mobile mt-minus-2">
+              <!-- <div class="columns is-centered is-vcentered is-mobile mt-minus-2">
                 <div class="column is-5-tablet is-5-desktop is-3-mobile"></div>
                 <div class="column">
                   <h2 class="subtitle">
@@ -57,61 +65,51 @@
                     <span class="ml-2">Roupas Femininas</span>
                   </h2>
                 </div>
-              </div>
+              </div> -->
 
-              <div class="columns is-centered is-vcentered is-mobile mt-minus-2">
+              <!-- <div class="columns is-centered is-vcentered is-mobile mt-minus-2">
                 <div class="column is-5-tablet is-5-desktop is-3-mobile"></div>
                 <div class="column">
                   <h2 class="subtitle">
                     <span class="icon">
-                      <i class="fas fa-lightbulb"></i>
+                      <i class="far fa-heart"></i>
                     </span>
-                    <span class="ml-2">Vista o que te inspira!</span>
+                    <span class="ml-2">O amor está no Lar.</span>
                   </h2>
                 </div>
-              </div>
+              </div> -->
             </div>
 
             <div class="container has-text-centered links-container">
               <div class="columns is-centered">
                 <div class="column is-10 is-narrow">
-                  <button (click)="this.goTo(applicationEnum.Instagram)" class="button is-large is-fullwidth">
+                  <button (click)="this.goTo(applicationEnum.Instagram)" class="button main-big-button">
                     <span class="icon">
                       <i class="fab fa-instagram"></i>
                     </span>
-                    <span>Instagram</span>
+                    <span>Acesse meu Instagram</span>
                   </button>
                 </div>
               </div>
               <div class="columns is-centered">
                 <div class="column is-10 is-narrow">
-                  <button (click)="this.goTo(applicationEnum.WhatsApp, '5551992538880')"
-                    class="button is-large is-fullwidth">
+                  <button (click)="this.goTo(applicationEnum.Email)"
+                    class="button main-big-button">
                     <span class="icon">
-                      <i class="fab fa-whatsapp"></i>
+                      <i class="far fa-envelope"></i>
                     </span>
-                    <span>WhatsApp da Amanda</span>
+                    <span>Me envie um Email</span>
                   </button>
                 </div>
               </div>
               <div class="columns is-centered">
                 <div class="column is-10 is-narrow">
                   <button (click)="this.goTo(applicationEnum.WhatsApp, '5551992307880')"
-                    class="button is-large is-fullwidth">
+                    class="button main-big-button">
                     <span class="icon">
-                      <i class="fab fa-whatsapp"></i>
+                      <i class="fas fa-paste"></i>
                     </span>
-                    <span>WhatsApp da Stephanie</span>
-                  </button>
-                </div>
-              </div>
-              <div class="columns is-centered">
-                <div class="column is-10 is-narrow">
-                  <button (click)="this.goTo(applicationEnum.eCommerce)" class="button is-large is-fullwidth">
-                    <span class="icon">
-                      <i class="fas fa-shopping-cart"></i>
-                    </span>
-                    <span>Catálogo</span>
+                    <span>Solicite já sua Consultoria</span>
                   </button>
                 </div>
               </div>
