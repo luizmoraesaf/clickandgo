@@ -18,7 +18,7 @@ export class AppComponent {
     if (application === ApplicationEnum.WhatsApp) {
       // window.open(`https://api.whatsapp.com/send?phone=${cellphone}`);
     } else if (application === ApplicationEnum.Instagram) {
-      window.open('https://www.instagram.com/alinicentininteriores');
+      window.open('https://www.instagram.com/alinecentininteriores');
     } else if (application === ApplicationEnum.eCommerce) {
       // window.open('https://santamora.vendizap.com/vitrine');
     } else if (application === ApplicationEnum.Localization) {
