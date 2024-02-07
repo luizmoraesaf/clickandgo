@@ -1,5 +1,9 @@
 # ClickAndGo
 
+This application works as a referral links provider, were you can centralize all your links on one platform. Similar to Linktree.
+
+
+This project was made with Bulma and Angular, with server file to serve on any host platform.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
 
 ## Development server
